@@ -31,8 +31,8 @@ class MyTestCase(unittest.TestCase):
 
     def test_example_3(self):
         s: str = "a" * 50000
-        words: List[str] = ['a' * i for i in range(1,5000+1)]
-        expected: int = len(words)
+        words: List[str] = [chr(ord('a')+offset) * i for i in range(1,50+1) for offset in range(0,26)]
+        expected: int = 50
         result: int = self.solution.numMatchingSubseq(s, words)
         self.assertEqual(result, expected)
 
