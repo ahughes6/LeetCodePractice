@@ -1,2 +1,2 @@
 # LeetCodePractice
-Most/all of my solutions for problems I have attempted on LeetCode posted here.
+Including attempted solutions for problems from LeetCode. Account on LeetCode is: https://leetcode.com/ahughes6/
